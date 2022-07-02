@@ -1,0 +1,93 @@
+/*! CSS Used from: https://geeksuptech.org/wp-content/themes/neve/style-main-new.min.css?ver=3.2.3 ; media=all */
+@media all{
+h2{margin:0;padding:0;}
+h2{font-size:100%;font-weight:400;}
+*,::after,::before{box-sizing:border-box;}
+img{height:auto;max-width:100%;}
+h2{margin-bottom:30px;font-family:var(--headingsFontFamily),var(--nv-fallback-ff);}
+a{--linkDeco:none;color:var(--nv-primary-accent);cursor:pointer;text-decoration:var(--linkDeco);}
+a:focus,a:hover{opacity:.9;color:var(--nv-secondary-accent);}
+h2{font-size:var(--h2FontSize);font-weight:var(--h2FontWeight);line-height:var(--h2LineHeight);letter-spacing:var(--h2LetterSpacing);text-transform:var(--h2TextTransform);}
+.neve-main{flex:1 auto;}
+::placeholder{color:inherit;opacity:.5;}
+.elementor-widget-text-editor{--listPad:15px;--listStyle:disc;}
+}
+/*! CSS Used from: https://geeksuptech.org/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.6.4 ; media=all */
+@media all{
+.elementor{-webkit-hyphens:manual;-ms-hyphens:manual;hyphens:manual;}
+.elementor *,.elementor :after,.elementor :before{-webkit-box-sizing:border-box;box-sizing:border-box;}
+.elementor a{-webkit-box-shadow:none;box-shadow:none;text-decoration:none;}
+.elementor img{height:auto;max-width:100%;border:none;border-radius:0;-webkit-box-shadow:none;box-shadow:none;}
+.elementor-element{--flex-direction:initial;--flex-wrap:initial;--justify-content:initial;--align-items:initial;--align-content:initial;--gap:initial;--flex-basis:initial;--flex-grow:initial;--flex-shrink:initial;--order:initial;--align-self:initial;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:var(--flex-direction);flex-direction:var(--flex-direction);-ms-flex-wrap:var(--flex-wrap);flex-wrap:var(--flex-wrap);-webkit-box-pack:var(--justify-content);-ms-flex-pack:var(--justify-content);justify-content:var(--justify-content);-webkit-box-align:var(--align-items);-ms-flex-align:var(--align-items);align-items:var(--align-items);-ms-flex-line-pack:var(--align-content);align-content:var(--align-content);gap:var(--gap);-ms-flex-preferred-size:var(--flex-basis);flex-basis:var(--flex-basis);-webkit-box-flex:var(--flex-grow);-ms-flex-positive:var(--flex-grow);flex-grow:var(--flex-grow);-ms-flex-negative:var(--flex-shrink);flex-shrink:var(--flex-shrink);-webkit-box-ordinal-group:var(--order);-ms-flex-order:var(--order);order:var(--order);-ms-flex-item-align:var(--align-self);align-self:var(--align-self);}
+.elementor-section{position:relative;}
+.elementor-section .elementor-container{display:-webkit-box;display:-ms-flexbox;display:flex;margin-right:auto;margin-left:auto;position:relative;}
+@media (max-width:1024px){
+.elementor-section .elementor-container{-ms-flex-wrap:wrap;flex-wrap:wrap;}
+}
+.elementor-section.elementor-section-boxed>.elementor-container{max-width:1140px;}
+.elementor-widget-wrap{position:relative;width:100%;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-line-pack:start;align-content:flex-start;}
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;}
+.elementor-widget-wrap>.elementor-element{width:100%;}
+.elementor-widget{position:relative;}
+.elementor-widget:not(:last-child){margin-bottom:20px;}
+.elementor-column{min-height:1px;}
+.elementor-column{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;}
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated{padding:10px;}
+@media (min-width:768px){
+.elementor-column.elementor-col-50{width:50%;}
+.elementor-column.elementor-col-100{width:100%;}
+}
+@media (max-width:767px){
+.elementor-column{width:100%;}
+}
+.elementor-element .elementor-widget-container{-webkit-transition:background .3s,border .3s,border-radius .3s,-webkit-box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,-webkit-box-shadow .3s;-o-transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-box-shadow .3s;}
+.elementor-button{display:inline-block;line-height:1;background-color:#818a91;font-size:15px;padding:12px 24px;border-radius:3px;color:#fff;fill:#fff;text-align:center;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s;}
+.elementor-button:focus,.elementor-button:hover,.elementor-button:visited{color:#fff;}
+.elementor-button-content-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;}
+.elementor-button-text{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-webkit-box-ordinal-group:11;-ms-flex-order:10;order:10;display:inline-block;}
+.elementor-button span{text-decoration:inherit;}
+}
+/*! CSS Used from: https://geeksuptech.org/wp-content/uploads/elementor/css/post-8.css?ver=1650877675 ; media=all */
+@media all{
+.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}
+.elementor-widget:not(:last-child){margin-bottom:20px;}
+.elementor-element{--widgets-spacing:20px;}
+@media (max-width:1024px){
+.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}
+}
+@media (max-width:767px){
+.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}
+}
+}
+/*! CSS Used from: https://geeksuptech.org/wp-content/uploads/elementor/css/global.css?ver=1650877955 ; media=all */
+@media all{
+.elementor-widget-heading .elementor-heading-title{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}
+.elementor-widget-text-editor{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}
+.elementor-widget-button .elementor-button{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );background-color:var( --e-global-color-accent );}
+}
+/*! CSS Used from: https://geeksuptech.org/wp-content/uploads/elementor/css/post-5.css?ver=1650878096 ; media=all */
+@media all{
+.elementor-5 .elementor-element.elementor-element-363baa18.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}
+.elementor-5 .elementor-element.elementor-element-6ab92203 .elementor-heading-title{color:#000000;}
+.elementor-5 .elementor-element.elementor-element-595874c6 .elementor-button{background-color:#071EAB;}
+.elementor-5 .elementor-element.elementor-element-47368c6f:not(.elementor-motion-effects-element-type-background){background-color:#FFFFFF;}
+.elementor-5 .elementor-element.elementor-element-47368c6f{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}
+.elementor-5 .elementor-element.elementor-element-6d024ebe .elementor-spacer-inner{--spacer-size:19px;}
+.elementor-5 .elementor-element.elementor-element-7c35dece{text-align:center;}
+.elementor-5 .elementor-element.elementor-element-7c35dece .elementor-heading-title{color:#000000;}
+.elementor-5 .elementor-element.elementor-element-339507f1{text-align:center;}
+.elementor-5 .elementor-element.elementor-element-339507f1 .elementor-heading-title{color:#363636;}
+.elementor-5 .elementor-element.elementor-element-339507f1 > .elementor-widget-container{margin:-10px 1px 1px 1px;}
+.elementor-5 .elementor-element.elementor-element-514e6402 > .elementor-container{max-width:801px;}
+.elementor-5 .elementor-element.elementor-element-190e8bd6{text-align:center;}
+.elementor-5 .elementor-element.elementor-element-190e8bd6 .elementor-heading-title{color:#000000;}
+.elementor-5 .elementor-element.elementor-element-5ef8b5a7{text-align:center;color:#000000;}
+.elementor-5 .elementor-element.elementor-element-db4c16d .elementor-spacer-inner{--spacer-size:148px;}
+}
+/*! CSS Used from: Embedded */
+.elementor-widget-image{text-align:center;}
+.elementor-widget-image img{vertical-align:middle;display:inline-block;}
+/*! CSS Used from: Embedded */
+.elementor-heading-title{padding:0;margin:0;line-height:1;}
+/*! CSS Used from: Embedded */
+.elementor-column .elementor-spacer-inner{height:var(--spacer-size);}
